@@ -17,8 +17,7 @@ indexes_2 = aa(M+1:N);
 load IEEE57bus.mat;
 L = m;
 sigma = 0.1;
-%X = mvnrnd(H*phases,sigma^2*eye(L),N);  
-load PowerGrid_Data;
+X = mvnrnd(H*phases,sigma^2*eye(L),N);  
 
 % Partition the training data into two parts
 X_1 = X(indexes_1,:);

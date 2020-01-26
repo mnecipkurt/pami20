@@ -1,11 +1,13 @@
 clear variables; clc; close all;
 
-load PowerGrid_Data.mat;
-N = size(X,1); % size of the training data
-d = size(X,2); % dimensionality
+% Training data
 load IEEE57bus.mat;
 L = m;
+N = 1e5; % size of the training data
 sigma = 0.1;
+X = mvnrnd(H*phases,sigma^2*eye(L),N); 
+
+d = size(X,2); % dimensionality
 
 % Space Partitioning
 K = 16;
