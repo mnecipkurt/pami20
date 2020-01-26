@@ -1,0 +1,14 @@
+run revision_ARL_alpha0p1.m
+run revision_ARL_alpha0p01.m
+run revision_ARL_alpha0p001.m
+run revision_ARL_alpha0p2.m
+run revision_ARL_alpha0p02.m
+run revision_ARL_alpha0p3.m
+run revision_ARL_alpha0p03.m
+run revision_ARL_alpha0p05.m
+run revision_ARL_alpha0p15.m
+run revision_ARL_alpha0p25.m
+run revision_ARL_alpha0p33.m
+run revision_ARL_alpha0p34.m
+run revision_ARL_alpha0p35.m
+run revision_ARL_alpha0p36.m
